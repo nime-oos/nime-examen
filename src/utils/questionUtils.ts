@@ -37,13 +37,19 @@ export const shuffleOptions = (question: Question): Question => {
   
   // Reorder options based on shuffled indices
   const shuffledOptions = indices.map(i => options[i]);
-  
+
   // Find new position of correct answer
   const newCorrectAnswer = shuffledOptions.findIndex(option => option === correctOption);
-  
+
+  // Reorder option images with the same permutation so they stay aligned with options
+  const shuffledOptionImages = question.optionImages
+    ? indices.map(i => question.optionImages![i])
+    : question.optionImages;
+
   return {
     ...question,
     options: shuffledOptions,
+    optionImages: shuffledOptionImages,
     correctAnswer: newCorrectAnswer
   };
 };

@@ -3404,11 +3404,11 @@ export const questions: Question[] = [
     optionImages: [
       "https://static.vecteezy.com/system/resources/thumbnails/047/428/797/small/rhomboid-traffic-signal-in-yellow-and-black-isolated-on-white-background-warning-of-narrow-road-ahead-on-left-side-vector.jpg",
       "https://www.zuldigital.com.br/blog/wp-content/uploads/2021/07/placa_desvio_Easy-Resize.com_-300x144.jpg",
-      "https://cdn.goconqr.com/uploads/multiple_choice_question/image/4185469/desktop_f5bb9e95-27b6-4853-a006-d522c8a4ba53.jpeg"
+      "https://upload.wikimedia.org/wikipedia/commons/5/5c/MUTCD_W1-2R.svg"
     ],
     options: ["Figura 1", "Figura 2", "Figura 3"],
-    correctAnswer: 0,
-    explanation: "La señal de color naranja o amarilla que indica 'DESVÍO' (opción 2) es la que se utiliza específicamente para advertir a los conductores sobre obras y trabajos en la vía."
+    correctAnswer: 1,
+    explanation: "La señal naranja de 'DESVÍO' es la que se utiliza específicamente para advertir a los conductores sobre obras y trabajos en la vía."
   },
   {
     id: 253,
@@ -3420,8 +3420,8 @@ export const questions: Question[] = [
       "https://st4.depositphotos.com/1001800/40861/i/450/depositphotos_408619302-stock-photo-roadside-sign-passing-tourists-directions.jpg"
     ],
     options: ["Figura 1", "Figura 2", "Figura 3"],
-    correctAnswer: 0,
-    explanation: "Las señales reglamentarias (círculo rojo) indican prohibiciones, restricciones y limitaciones. La señal de 'NO ADELANTAR' (opción 2) es la que establece una restricción."
+    correctAnswer: 1,
+    explanation: "Las señales reglamentarias (círculo rojo) indican prohibiciones, restricciones y limitaciones. La señal de 'NO ADELANTAR' es la que establece una restricción."
   },
   {
     id: 254,
@@ -3433,8 +3433,8 @@ export const questions: Question[] = [
       "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRAVajKJnIkLYaT1HWQcb6mKSueG6vuwn-ZHFS7bOiM1glMcD20"
     ],
     options: ["Figura 1", "Figura 2", "Figura 3"],
-    correctAnswer: 0,
-    explanation: "Las señales informativas son generalmente rectangulares y de color azul o verde (opción 3), mientras que las reglamentarias (CEDA EL PASO, opción 1) y preventivas (Curva, opción 2) tienen formas y colores distintos."
+    correctAnswer: 2,
+    explanation: "Las señales informativas son generalmente rectangulares y de color azul, como la señal de servicios que aquí se muestra, mientras que las reglamentarias ('CEDA EL PASO') y preventivas (curva en la vía) tienen formas y colores distintos."
   },
   {
     id: 255,
@@ -3442,12 +3442,12 @@ export const questions: Question[] = [
     question: "Seleccione cuál de las señales de tránsito advierte antes de un cruce en T.",
     optionImages: [
       "https://t4.ftcdn.net/jpg/08/46/75/95/360_F_846759522_IebW5z8x0p51STZSf0ikP6AuVbpYClVG.jpg",
-      "https://la100.cienradios.com/resizer/v2/GF2FZ6SOEVFPNDRXTVICXPWYGA.jpg?th=701f662a88b43984f936dd3ca665f2adc222b7d99c62a33b1f5ed457c1f2607a",
+      "https://upload.wikimedia.org/wikipedia/commons/5/52/MUTCD_W2-1.svg",
       "https://dmv-practice-test.com/storage/images-car/alabama-divided_highway_ahead.png"
     ],
     options: ["Figura 1", "Figura 2", "Figura 3"],
     correctAnswer: 0,
-    explanation: "La señal preventiva con la forma de 'T' (Opción Uno) advierte que la vía principal por la que se circula será intersectada por otra vía lateral, formando un cruce en T."
+    explanation: "La señal preventiva con la forma de 'T' advierte que la vía principal por la que se circula será intersectada por otra vía lateral, formando un cruce en T."
   },
   {
     id: 256,
@@ -3460,7 +3460,7 @@ export const questions: Question[] = [
     ],
     options: ["Figura 1", "Figura 2", "Figura 3"],
     correctAnswer: 1,
-    explanation: "El adelantamiento solo está permitido en la **Figura 2**, que muestra una línea central discontinua (punteada), indicando que es seguro adelantar si las condiciones de tráfico lo permiten."
+    explanation: "El adelantamiento solo está permitido en la figura con línea central discontinua (punteada), indicando que es seguro adelantar si las condiciones de tráfico lo permiten."
   },
   {
     id: 257,
@@ -3468,12 +3468,12 @@ export const questions: Question[] = [
     question: "¿Seleccione cuál de las señales de tránsito, marcada en la vía señala un paso peatonal?",
     optionImages: [
       "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQhrSrOlMGSfIbuzdJyM44sKlqxLj0oScWwDgP8j_EUVaDDKRoo",
-      "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEin9GMQVKCo7QcW_ZE0sp0x4_LTWyUWSl_N6xOyOcxWaLRXsqPRl4beIxOLu3j2THIEepG3NOIUeb7WYXzQCI5If6xpQ4KPOw3LSy7oXd_Plk0pO35u629ShjdqQjQy9PQjWrACw0W_KjM/?imgmax=800",
+      "https://upload.wikimedia.org/wikipedia/commons/4/4a/MUTCD_W11-1.svg",
       "https://media.istockphoto.com/id/897128492/pt/vetorial/isolated-transit-signal.jpg?s=170x170&k=20&c=slOArzg9Oe3IjmEwIKKRUhtHk4EszFdiF8eJQLt4_vk="
     ],
     options: ["Figura 1", "Figura 2", "Figura 3"],
     correctAnswer: 0,
-    explanation: "La señal preventiva de color amarillo con el peatón caminando (Figura 1) es la que se utiliza para advertir que hay un cruce peatonal marcado en la vía."
+    explanation: "La señal preventiva de color amarillo con el peatón caminando es la que se utiliza para advertir que hay un cruce peatonal marcado en la vía."
   },
   {
     id: 258,
@@ -3486,7 +3486,7 @@ export const questions: Question[] = [
     ],
     options: ["Figura 1", "Figura 2", "Figura 3"],
     correctAnswer: 0,
-    explanation: "La **Doble Línea Continua** (Figura 1) prohíbe el adelantamiento (aventajamiento) en ambos sentidos de circulación."
+    explanation: "La **Doble Línea Continua** prohíbe el adelantamiento (aventajamiento) en ambos sentidos de circulación."
   },
   /*------------------------*/
   {
